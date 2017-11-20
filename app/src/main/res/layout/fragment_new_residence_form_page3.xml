@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inquilinosrd.inquilinosmobile.NewResidenceForm_page3">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/addImageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deseas añadir una imagen?"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/imageIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_camera_alt_black_24dp"
+            android:layout_gravity="bottom"
+            android:onClick="startDialog"
+            android:layout_below="@+id/addImageText"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:id="@+id/loadedImage"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/appbckg"
+            android:scaleType="centerInside"/>
+    </RelativeLayout>
+
+
+</FrameLayout>

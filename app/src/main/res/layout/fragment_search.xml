@@ -1,0 +1,6 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/place_autocomplete"
+    android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+    android:layout_width="match_parent"
+    android:minHeight="50dp"
+    android:layout_height="wrap_content"/>

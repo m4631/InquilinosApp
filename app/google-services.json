@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "108996700796",
+    "firebase_url": "https://inquilinosmobile.firebaseio.com",
+    "project_id": "inquilinosmobile",
+    "storage_bucket": "inquilinosmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108996700796:android:6ab6f0435cc7358a",
+        "android_client_info": {
+          "package_name": "com.inquilinosrd.inquilinosmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108996700796-k53tio4qc7ppcimaapneokqpu8c5nd5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inquilinosrd.inquilinosmobile",
+            "certificate_hash": "9ababfe997b68503d07a8a26889c1d61fafc1c69"
+          }
+        },
+        {
+          "client_id": "108996700796-ihqm4riv2pvu1a2cjeqm73vqall3edj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXE3wSPVj08zfKxImjkCApsKaIwc26QDc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108996700796-ihqm4riv2pvu1a2cjeqm73vqall3edj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
